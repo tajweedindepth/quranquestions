@@ -9,7 +9,7 @@ body {
 .leftbutton {
   display: inline-block;
   margin: 5px; /* space between buttons */
-  background: grey; /* background color */
+  background: lightgrey; /* background color */
   color: black; /* text color */
   font-size: 1.5em;
   font-family: ‘Georgia’, serif;
@@ -38,7 +38,7 @@ body {
 .centerbutton {
   display: inline-block;
   margin: 5px; /* space between buttons */
-  background: lightgreen; /* background color */
+  background: lightyellow; /* background color */
   color: black; /* text color */
   font-size: 1.5em;
   font-family: ‘Georgia’, serif;
