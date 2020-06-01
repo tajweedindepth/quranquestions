@@ -1,1 +1,1 @@
-# ladyrukky.github.io
+# Juz Tabarak Competition Pages
