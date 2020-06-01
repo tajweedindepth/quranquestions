@@ -1,0 +1,226 @@
+body {
+  background-color: lightblue;
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+}
+
+.leftbutton {
+  display: inline-block;
+  margin: 5px; /* space between buttons */
+  background: grey; /* background color */
+  color: black; /* text color */
+  font-size: 1.5em;
+  font-family: ‘Georgia’, serif;
+  font-style: italic;
+  border-radius: 50px; /* rounded corners */
+  padding: 80px 160px; /* space around text */
+  /* transition: all 0.2s; */
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.rightbutton {
+  display: inline-block;
+  margin: 5px; /* space between buttons */
+  background: #FFFF66	; /* background color */
+  color: black; /* text color */
+  font-size: 1.5em;
+  font-family: ‘Georgia’, serif;
+  font-style: italic;
+  border-radius: 50px; /* rounded corners */
+  padding: 80px 160px; /* space around text */
+  /* transition: all 0.2s; */
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.centerbutton {
+  display: inline-block;
+  margin: 5px; /* space between buttons */
+  background: lightgreen; /* background color */
+  color: black; /* text color */
+  font-size: 1.5em;
+  font-family: ‘Georgia’, serif;
+  font-style: italic;
+  border-radius: 50px; /* rounded corners */
+  padding: 80px 160px; /* space around text */
+  /* transition: all 0.2s; */
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.leftbutton:hover, .rightbutton:hover, .centerbutton:hover {
+  background: black;
+  color: white;
+}
+
+.fjabodycontainer{
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  background-color: grey;
+}
+
+.hjabodycontainer{
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  background-color: #FFFF66	;
+}
+.tiebbodycontainer{
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  background-color: lightgreen	;
+}
+
+#buttoncontainer {
+  text-align: center;
+}
+
+table, th, td {
+  height: 100%;
+  width: 100%;
+  border: 3px solid black;
+
+}
+
+th, td {
+  padding: 5px;
+  height: 0%;
+  width: 5%;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.navcontainer {
+  margin: 2%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: none;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  text-align: center;
+}
+
+li a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  font-size: 2em;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: white;
+  opacity: 90%;
+  color: black;
+}
+
+.active {
+  background-color: black;
+  color: white;
+}
+
+.welcome {
+  margin-top: 3%;
+  text-align: center;
+}
+
+/* Popup Code */
+.button {
+  font-size: 3em;
+  padding: 5px;
+  color: black;
+  border: 2px solid black;
+  border-radius: 10px/40px;
+  text-decoration: none;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  background-color: black;
+  color: white;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 50px auto;
+  padding: 15px;
+  background: #f5f2d0;
+  border-radius: 5px;
+  width: 70%;
+  height: 80%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: grey;
+}
+.popup .content {
+  max-height: 100%;
+  overflow: auto;
+  color: black;
+  font-size: 4em;
+  margin: 140px auto;
+}
+
+@media screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+  .popup{
+    width: 70%;
+  }
+  table, tr, th {
+    width: 100%;
+  }
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: none;
+  text-align: center;
+}
