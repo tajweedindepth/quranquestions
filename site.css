@@ -59,7 +59,7 @@ body {
   margin-right: 5%;
   margin-left: 5%;
   margin-bottom: 5%;
-  background-color: grey;
+  background-color: lightgrey;
 }
 
 .hjabodycontainer{
@@ -72,8 +72,7 @@ body {
   margin-right: 5%;
   margin-left: 5%;
   margin-bottom: 5%;
-  background-color: lightgreen	;
-}
+  background-color: lightyellow
 
 #buttoncontainer {
   text-align: center;
