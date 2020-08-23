@@ -1,1 +1,1 @@
-# Juz Tabarak Competition Pages
+# Qur'an Questions Pages
